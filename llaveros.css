@@ -1,0 +1,132 @@
+.propuestas{
+    color: red; font-size: 30px;
+}
+.propuestas2 h2{
+    color: red;
+}
+#container{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img{
+    max-width: 100%;
+}
+.llaveros{
+    width: 100%;
+    padding-right: 250px;
+    text-align: center;
+    margin: 0;
+}
+.llaveros img{
+    width: 250px;
+}
+.llaveros h1{
+    color: red;
+}
+.opciones h2{
+    color: red;
+}
+.redes{
+    color: red;
+}
+.menu{
+    color: red;
+}
+.titulo{
+    color: red;
+    text-align: center;   
+}
+.redes img{
+    width: 75px;
+}
+.logo img{
+    width: 75%;
+    height: 300px;
+}
+.galería img{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    vertical-align: top;
+    transition: transform 0.5s;
+}
+.GdI{
+    text-align: center;
+    font-weight: 400;
+    padding: 20px 0 ;
+    font-size: 20px;
+    color: red;
+}
+.líneas{
+    background: deeppink;
+    height: 5px;
+    width: 100%;
+    display: block;
+}
+.galería{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 95%;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
+}
+.galería a>{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px;
+}
+.galería a:hover img{
+    filter: brightness;
+    transform: rotate(0.5deg) scale(1.1);
+}
+.light-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transform: scale(0);
+}
+.light-box img{
+    width: 45vw;
+    max-height: 35vw;
+}
+.light-box:target{
+    transform: scale(1);
+}
+.close{
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.next{
+    display: block;
+    top: 30px;
+    right: 30px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
