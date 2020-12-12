@@ -4,9 +4,10 @@
 .propuestas2 h2{
     color: red;
 }
-#container{
+.background{
     background-repeat: no-repeat;
     background-size: contain;
+    width: 50%;
 }
 .img{
     max-width: 100%;
@@ -98,8 +99,8 @@
     transform: scale(0);
 }
 .light-box img{
-    width: 45vw;
-    max-height: 35vw;
+    width: 70vw;
+    max-height: 45vw;
 }
 .light-box:target{
     transform: scale(1);
@@ -107,26 +108,34 @@
 .close{
     display: block;
     position: absolute;
-    top: 40px;
-    right: 40px;
+    top: 80px;
+    right: 80px;
     background-color: #000;
     color: #fff;
     text-decoration: none;
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     text-align: center;
-    line-height: 40px;
+    line-height: 80px;
     border-radius: 50%;
 }
 .next{
     display: block;
-    top: 30px;
-    right: 30px;
+    top: 60px;
+    right: 60px;
     background-color: #000;
     color: #fff;
     text-decoration: none;
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     text-align: center;
-    line-height: 30px;
+    line-height: 60px;
+}
+.contacto img{
+    width: 150px;
+}
+.modalidad img{
+    width: 900px;
+    height: 250px;
+    justify-content: center;
 }
