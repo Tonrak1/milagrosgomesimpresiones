@@ -1,3 +1,12 @@
+body{
+    background-attachment: fixed;
+    background-size: 100% 200%;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: red;
+    margin: 5;
+}
 .propuestas{
     color: red; font-size: 30px;
 }
